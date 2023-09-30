@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-!kk+nvv_f+x3ojbgy%f=pyez(y0xp_t^s^d2-zt2up7+7x+e!8'
+SECRET_KEY = ####
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -148,8 +148,8 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 # Google
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '869370013777-mv5m5t5qsb578t91sibvnc9jp8ca8idv.apps.googleusercontent.com' # ИД клиента Google
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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' # Секрет клиента Google
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ####
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = #####
 
 SOCIAL_AUTH_PIPELINE = [
 'social_core.pipeline.social_auth.social_details',
